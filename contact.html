@@ -1,0 +1,71 @@
+<! DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact me page</title>
+</head>
+<style>
+
+ body {
+ margin: 10;
+ background-color: pink;}
+
+form{width:20%;}
+
+input[type="text"],input[type="email"],textarea,select
+{width: 50%;
+padding: 8px;
+margin-bottom: 10px;
+border: 2px solid;
+border-radius: 7px;
+box-sizing: border-box;
+font-size: 13px;}
+		
+h1{text-align: center;
+margin-top: 10px;}
+
+ input[type="submit"] {background-color: #333;
+ color: #fff;
+ padding: 20px 30px;
+ cursor: pointer;
+ border-radius: 5px;}
+
+input[type="submit"]:hover {background-color: white;}
+</style>
+<body>
+<hr/>
+<h2>Leave a Message</h2>
+<div>
+<form method="get">
+<p>
+<label><strong> Full Name:</strong></label>
+<input type="text" name="tx1" value="" size="20" maxlength="30" id="loc1"/>
+</p>
+<p>
+<label><strong>Email address :</strong><label>
+<input type="email" name="email1" value="" size="20" maxlength="25"/>
+<p>
+<label><strong>country</strong></label>
+<select name="country"/>
+<option>UNAITED ARAB EMARITS</option>
+<option>SAUDI ARABIA</option>
+<option selected>JORDAN</option>
+<option>PALASTINE</option>
+<option>IRAQ</option>
+<option>United States</option>
+<option>Canada</option>
+<option>United Kingdom</option>
+<option>Germany</option>
+</select>
+</p>
+<p>
+<label><strong>your Comment:</strong></label><br/><br/>
+<textarea rows="10" col="100">write your comment here ...</textarea>
+</p>
+<p>
+<input type="submit" value="Submit"/>
+</p>
+</div> 
+
+</body>
+</html>
